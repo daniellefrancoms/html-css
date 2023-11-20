@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(197, 191, 191);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: brown;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        nav > a:active {
+            color: rgb(97, 201, 241);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px ;
+         }
+
+         #assuntos > p {
+            text-decoration: underline;
+         }
+
+        article {
+            background-color: rgb(197, 191, 191);
+            padding: 5px;
+        }
+        
+        article > aside {
+            background-color: rgb(146, 145, 145);
+        }
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro site</h1>
+        <nav>
+            <a href="https://www.youtube.com/">Link 01</a>
+            <a href="#">Link 02</a>
+            <a href="#">Link 03</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> Esportes, política e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Esportes no Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eligendi suscipit adipisci consectetur accusamus, ducimus corporis dolore sequi sunt molestiae, cum atque quaerat tempora? Nam saepe doloremque nihil temporibus minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dignissimos laudantium corporis sunt dolor harum ad placeat quam reiciendis earum, libero a ratione? Dicta, earum possimus ex quo cumque temporibus.</p>
+                <aside>
+                    <p>Artigo escrito por Danielle Santos</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>Desenvolvido pela Minas Software</footer>
+</body>
+</html>

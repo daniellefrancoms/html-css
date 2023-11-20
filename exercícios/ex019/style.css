@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+      background-color: rgb(196, 250, 231);
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+/* a # identifica o id no css
+e o . identifica a class no css */
+
+h1 {
+    color:green;
+}
+
+h1#principal {
+    background-color: rgb(238, 247, 247);
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(2, 66, 2);
+}
+
+.basico {
+    background-color: bisque;
+}
+
+.intermediario {
+    background-color: rgb(180, 141, 218);
+}
+
+.avançado {
+    background-color: rgb(197, 130, 130);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+
+        .especial {
+            background-color: rgb(190, 173, 206);
+        }
+
+        .especial::before {
+            content: '⇒';
+        }
+
+        .especial::after {
+            content: '⇐';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Repositório github</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Canal do youtube</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial">Site do curso em vídeo</a></li>
+    </ul>
+</body>
+</html>
