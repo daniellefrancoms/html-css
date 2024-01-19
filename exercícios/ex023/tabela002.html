@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 350px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            background-color: rgb(191, 228, 191);
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(66, 179, 66);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(66, 179, 66);
+;
+        }
+
+        tbody > tr:nth-child(even) { /* even = par, odd = ímpar...ou poderia ser  :nth-child (2n) de 2 em 2 */  
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd) {
+            text-decoration: underline;
+        }
+      
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso para tabelas grandes</h1>
+     <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</td>
+                <th scope="col" style="width: 100px;">Polulação</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                 <td>Rio de Janeiro</td>
+                 <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 610 361</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 056 495</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 805</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 687</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 613</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3 833 712</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 658 649</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 302 729</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td><strong>203 062 512</strong></td>
+            </tr>
+        </tfoot>
+     </table>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nisi nihil voluptate voluptatum ipsa ratione consectetur alias cum quos accusamus quas aspernatur, facere vitae reprehenderit repudiandae quod, nesciunt voluptas veniam?</p>
+</body>
+</html>
